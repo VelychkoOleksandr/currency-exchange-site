@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EXchage</title>
+    <link rel="stylesheet" href="style.css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row" id="nav-bar">
+            <div class="col-4">Company Name</div>
+            <div class="col-2">Home</div>
+            <div class="col-2">About Us</div>
+            <div class="col-2">Portfolio</div>
+            <div class="col-2">Contact Us</div>
+        </div>
+        <div id="converter">
+            <div id="base-currency">
+                <select>
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="CHF">CHF</option>
+                </select>
+            </div>
+            <div id="input-output">
+                <input type="text" name="input" id="input" value="0" placeholder="Input Amount">
+                <input type="text" name="output" id="output" value="0" placeholder="I will got">
+            </div>
+            <div id="quote-currency">
+                <select>
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="CHF">CHF</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!--LiBRARYS AND FRAMEWORKS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--MY SCRIPTS-->
+    <script src="js/main.js"></script>
+</body>
+</html>

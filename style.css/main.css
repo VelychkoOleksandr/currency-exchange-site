@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: lightblue url('../img/background.jpeg') no-repeat fixed center; */
+}
+div#nav-bar {
+padding-top: 20px; 
+}
+
+div {
+}
+
+#converter {
+    display: flex;
+    width: 20%;
+}
+
