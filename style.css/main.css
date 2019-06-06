@@ -1,20 +1,47 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
 body {
-    /* background: lightblue url('../img/background.jpeg') no-repeat fixed center; */
-}
-div#nav-bar {
-padding-top: 20px; 
+    background: lightblue url('../img/Sexy\ Blue.jpg');
 }
 
-div {
-}
-
-#converter {
+#nav-bar div {
     display: flex;
-    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+
+header {
+    margin-top: 30px;
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#content {
+    margin-top: 100px;
+}
+
+article {
+    display: block;
+    color: white;
+    text-align: justify;
+    max-width: 100px;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.coverter-box {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+
+
+
 
